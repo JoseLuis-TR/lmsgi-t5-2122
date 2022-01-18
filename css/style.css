@@ -917,7 +917,7 @@ td > p{
 .modal-content  {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-    border-radius: 10px; 
+    border-radius: 10px;
 }
 
 .modal-title {
@@ -944,4 +944,12 @@ td > p{
 	color: #ffffff;
 	background-color: #4471db;
 	border: 0;
+}
+
+.modal-dialog {
+    min-height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
 }
