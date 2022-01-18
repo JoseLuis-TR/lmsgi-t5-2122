@@ -210,10 +210,10 @@ border:0px;
 	text-decoration: none;
 }
 .transprant-bg {
-	-webkit-background-size: cover !important;
-	-moz-background-size: cover !important;
-	-o-background-size: cover !important;
-	background-size: cover !important;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	background-position: 50% 0;
 	background-repeat: no-repeat;
 	z-index: 1;
@@ -276,8 +276,8 @@ color:#000;
 }
 .object-visible,
 .touch .no-view {
-	opacity: 1 !important;
-	filter: alpha(opacity=100) !important;
+	opacity: 1;
+	filter: alpha(opacity=100);
 }
 
 /* Targeting only Firefox for smoothest animations */
@@ -558,7 +558,7 @@ padding: 10px 0;
 /* Next button  */
 #quote-carousel .carousel-control.right 
 {
-  right: -12px !important;
+  right: -12px;
 }
 /* Changes the position of the indicators */
 #quote-carousel .carousel-indicators 
@@ -622,7 +622,7 @@ padding: 10px 0;
     /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
     
     #quote-carousel .carousel-indicators {
-        bottom: -20px !important;  
+        bottom: -20px;  
     }
     #quote-carousel .carousel-indicators li {
         display: inline-block;
@@ -654,7 +654,7 @@ padding: 10px 0;
 		padding-right: 0;
 	}
 	.navbar-nav {
-		float: left !important;
+		float: left;
 	}
 }
 @media (max-width:767px) {
@@ -911,4 +911,23 @@ td > p{
 footer > a {
 	text-decoration: none;
 	color: white;
+}
+
+.modal-header {
+	padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: black;
+}
+
+.modal-content  {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px; 
+}
+
+.modal-title {
+	max-height: 60px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
