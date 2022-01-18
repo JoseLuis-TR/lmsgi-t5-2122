@@ -149,11 +149,11 @@ blockquote {
 	z-index: 2;
 }
 .subfooter {
-	background-color: #1950d1;
+	background-color: black;
 	padding: 40px 0;
 }
 .subfooter a {
-color: #1950d1;
+color: #4497c4;
 }
 .section {
 	background-color: #ffffff;
@@ -932,4 +932,16 @@ td > p{
 	display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.btn-lg{
+	margin: 0px 15px;
+	background-color: #1950d1;
+	border: none
+}
+
+.btn-lg:hover {
+	color: #ffffff;
+	background-color: #4471db;
+	border: 0;
 }
