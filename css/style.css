@@ -907,3 +907,8 @@ td > p{
 	margin-right: 30%;
 	font-weight: bold;
 }
+
+footer > a {
+	text-decoration: none;
+	color: white;
+}
