@@ -908,11 +908,6 @@ td > p{
 	font-weight: bold;
 }
 
-footer > a {
-	text-decoration: none;
-	color: white;
-}
-
 .modal-header {
 	padding:9px 15px;
     border-bottom:1px solid #eee;
@@ -926,6 +921,13 @@ footer > a {
 }
 
 .modal-title {
+	max-height: 60px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-header > img {
 	max-height: 60px;
 	display: block;
     margin-left: auto;
